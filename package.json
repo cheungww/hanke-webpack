@@ -1,0 +1,17 @@
+{
+  "name": "hanke-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "hanke-webpack": "./bin/hanke-webpack.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.8.0",
+    "@babel/traverse": "^7.8.0",
+    "@babel/types": "^7.8.0",
+    "babylon": "^6.18.0",
+    "ejs": "^3.0.1",
+    "tapable": "^1.1.3"
+  }
+}
